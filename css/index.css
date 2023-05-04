@@ -1,0 +1,253 @@
+@import url("./mobile.css");
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+}
+.box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav ul {
+    display: flex;
+}
+.header-nav ul li{
+    list-style-type: none;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-nav ul li a:active{
+    color: #0082F3;
+}
+header{
+    padding: 25px 0;
+}
+.header-button button{
+    padding: 10px 16px;
+    background: #39CDCC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 6px 6px;
+    border: none;
+}
+.header-button button:hover{
+    background: transparent;
+    transition: all .5s;
+    border: none;
+    box-shadow: none;
+    transform: scale(1.1);
+}
+.instant-left h1{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    color: #333333;
+}
+.instant-left p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+}
+.instant-right img{
+    width: 100%;
+}
+.instant{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+.save{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+.save-left img{
+    width: 100%;
+}
+.save-right h2{
+
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;  
+    color: #333333;  
+}
+.save-right p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333; 
+}
+.itworks-cards{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+}
+.setup-card{
+    box-shadow: 0px 0px 10px #B7B7B7;
+    width: 369px;
+    height: 359px;
+    text-align: center;
+    border-top: 15px solid #582EFF;
+    position: relative;
+}
+.itworks{
+    width: 100%;
+}
+.itworks h2{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    color: #333333;
+}
+.setup-card img{
+    margin-top: 50px;
+}
+.setup-card h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 49px;
+}
+.setup-card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+.setup-kryg{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 100%;
+    position: absolute;
+    top: 9em;
+    left: 96.5%;
+    display: block;
+}
+.apply-card img{
+    margin-top: 50px;
+}
+.apply-kryg{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 100%;
+    position: absolute;
+    top: 9em;
+    left: 96.5%;
+    display: block;
+}
+.apply-kryg img{
+   margin-top: .6em;
+}
+.setup-kryg img{
+    margin-top: .6em;
+ }
+.apply-card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+.apply-card h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 49px;
+}
+.apply-card{
+    box-shadow: 0px 0px 10px #B7B7B7;
+    width: 369px;
+    height: 359px;
+    text-align: center;
+
+    border-top: 15px solid #FF814A;
+    position: relative;
+}
+.get-card img{
+    margin-top: 50px;
+}
+.get-card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+.get-card h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 49px;
+}
+.get-card{
+    box-shadow: 0px 0px 10px #B7B7B7;
+    width: 369px;
+    height: 359px;
+    text-align: center;
+    border-top: 15px solid #31C5A1;
+    position: relative;
+}
+.get{
+    background: #31C5A1;
+    height: 371px;
+    margin-top: 40px;
+}
+.get h2{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5em;
+}
+.get-img{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content-office p{
+    font-weight: 400;
+    font-size: 19px;
+    color: #333333;
+}
+.footer-content-contact p{
+    font-weight: 400;
+    font-size: 19px;
+    color: #333333;
+}
+.footer-content-powered p{
+    font-weight: 400;
+    font-size: 19px;
+    color: #333333;
+    line-height: 30px;
+}

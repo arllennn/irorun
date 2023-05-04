@@ -1,0 +1,33 @@
+@media screen and (max-width: 609px) {
+    .header-logo{
+        display: none;
+    }
+    .header-nav{
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+    .header-button{
+        display: none;
+    }
+    .instant{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instant-left{
+        margin-bottom: 40px;
+    }
+    .save{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .itworks-cards{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
