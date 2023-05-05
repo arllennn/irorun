@@ -74,6 +74,7 @@ header{
 }
 .save{
     display: flex;
+
     justify-content: space-around;
     margin-top: 5em;
 }
@@ -96,7 +97,6 @@ header{
 .itworks-cards{
     display: flex;
     justify-content: space-between;
-    /* width: 80%; */
 }
 .setup-card{
     box-shadow: 0px 0px 10px #B7B7B7;
@@ -141,7 +141,7 @@ header{
     border-radius: 100%;
     position: absolute;
     top: 9em;
-    left: 96.5%;
+    left: 95.5%;
     display: block;
 }
 .apply-card img{
@@ -154,11 +154,13 @@ header{
     border-radius: 100%;
     position: absolute;
     top: 9em;
-    left: 96.5%;
+    left: 95.5%;
     display: block;
 }
-.apply-kryg img{
-   margin-top: .6em;
+ion-icon{
+    color: white;
+    font-size: 30px;
+    margin-top: 4px;
 }
 .setup-kryg img{
     margin-top: .6em;
